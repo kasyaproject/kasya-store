@@ -1,0 +1,26 @@
+BACKEND
+
+## Install Nodejs
+npm install -y
+
+## install package backend
+npm install express mongoose jsonwebtoken bcryptjs cors dotenv cookie-parser cloudinary
+
+express: Framework minimalis untuk membangun server web di Node.js.
+mongoose: ODM (Object Data Modeling) untuk mengelola dan berinteraksi dengan database MongoDB.
+jsonwebtoken: Digunakan untuk menghasilkan dan memverifikasi token JWT (JSON Web Token) untuk autentikasi.
+bcryptjs: Library untuk mengenkripsi dan membandingkan password dengan aman.
+cors: Middleware untuk mengatur kebijakan Cross-Origin Resource Sharing (CORS), yang memungkinkan API diakses dari domain yang berbeda.
+dotenv: Memungkinkan Anda membaca variabel lingkungan dari file .env.
+cookie-parser: Middleware untuk parsing cookie di request HTTP.
+cloudinary: Library untuk mengelola media seperti gambar dan video di platform Cloudinary.
+
+## install nodemon untuk Mempercepat proses pengembangan dengan meminimalkan kebutuhan untuk me-restart server secara manual.
+npm i -D nodemon
+
+===================================================================================================================================================
+FRONTEND
+
+## Install Vite.js
+cd frontend
+npm create vite@latest .
