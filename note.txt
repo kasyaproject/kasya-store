@@ -24,3 +24,6 @@ FRONTEND
 ## Install Vite.js
 cd frontend
 npm create vite@latest .
+
+## Install packages
+npm i react-router-dom
