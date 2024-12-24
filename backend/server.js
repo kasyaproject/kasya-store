@@ -11,6 +11,9 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const __dirname = path.resolve();
 
+app.get("/", (req, res) => {
+  res.json("Server is running !!!");
+});
 app.use("/api/auth", authRoutes);
 
 if (process.env.NODE_ENV === "production") {
